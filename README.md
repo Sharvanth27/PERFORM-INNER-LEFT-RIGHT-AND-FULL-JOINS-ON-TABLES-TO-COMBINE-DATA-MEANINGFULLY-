@@ -57,6 +57,8 @@ RIGHT JOIN:
 Returns all records from the scores table, and the matched records from students. Unmatched student info appears as NULL.
 Use Case: View all scores, including those without student details.
 
+<img width="354" alt="Image" src="https://github.com/user-attachments/assets/aef8dfb2-37d6-416e-96a1-ce22dce6b8df" />
+
 FULL OUTER JOIN:
 Since MySQL does not support FULL OUTER JOIN directly, it is simulated using a UNION of the LEFT and RIGHT JOIN queries.
 Use Case: View a comprehensive list of all students and all scores, matched or unmatched.
